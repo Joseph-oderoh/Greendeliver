@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.side{
+    background-color: green;
+    height: 500px;
+    margin-top: 50px;
+}
+.other{
+    background-color: aqua;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ones{
+    display: flex;
+    padding: 10px;
+}
+.ones h4{
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
+.one{
+    border: 2px black solid;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+}
+.one h4{
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
+.two{
+    border: 2px black solid;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+}
+.two h4{
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-between;
+}
