@@ -1,0 +1,49 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cycle h1{
+    text-align: center;
+    
+}
+.cycle p{
+    display: flex;
+    font-weight: bold;
+    margin: 10px;
+}
+body{
+    background-color: green;
+    color:  white;
+    
+}
+#brw{
+    font-family: Helvetica;
+    background-color: indianred;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    float: right;
+    height: 75px;
+    width: 75px;
+}
+sup{
+    color: green;
+    font-size: large;
+}
+#brw:hover{
+    color: white;
+}
+.deliv{
+    display: flex;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-around;
+}
+.deliv h2{
+    
+    background: greenyellow;
+    height: 25%;
+}
+.deliv h4{
+    margin: 50px;
+}
