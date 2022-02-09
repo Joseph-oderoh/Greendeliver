@@ -11,6 +11,7 @@
     background-color: green;
     height: 700px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .other{
     background-color: aqua;
@@ -35,9 +36,16 @@ input{
 }
 .ones h4{
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
+    padding-right: 100px;
     justify-content: space-between;
 }
+.fa-solid{
+       background-color: white;
+       height: 50px;
+       width: 50px;
+}
+
 .one{
     border: 2px black solid;
     height: 70px;
@@ -48,6 +56,7 @@ input{
     flex-direction: column;
     padding: 30px;
     justify-content: space-between;
+    padding-right: 100px;
 }
 .two{
     border: 2px black solid;
