@@ -9,19 +9,21 @@ body {
 }
 
 .page {
-    background-color: #81bb81;
-    width: 60%;
-    margin-left: 350px;
+    background-color: #019a0183;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 500px;
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 10px;
 }
 
 .text {
-    /* background-color: #019A01; */
+
     padding: 10px;
     font-size: xx-large;
     text-align: center;
+    font-weight: bold;
     
 }
 
@@ -39,12 +41,12 @@ body {
 }
 
 
-.btn {
+/* .btn {
     background-color: #761F14;
     color: white;
     padding: 10px;
     border-radius: 10px;
-}
+} */
 
 
 .btns {
