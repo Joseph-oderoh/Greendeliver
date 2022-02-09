@@ -1,5 +1,5 @@
 html{
-    margin: 0;
+    margin: 10px;
     box-sizing: border-box;
 }
 .cycle h1{
@@ -12,7 +12,7 @@ html{
     margin: 10px;
 }
 body{
-    background-color: orange;
+    background-color: #019A01;
     color:  white;
     
 }
@@ -41,7 +41,6 @@ sup{
     border-bottom: 2px solid black;
 }
 .deliv h2{
-    background: greenyellow;
     height: 25%;
    
 }
@@ -63,7 +62,9 @@ sup{
 
 }
 .details h2{
-    background: greenyellow;
     height: 25%; 
     text-align: center;
+}
+#log{
+ text-align: right;
 }
