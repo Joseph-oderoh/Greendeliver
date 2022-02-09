@@ -9,7 +9,7 @@
 .navbar{
     float: right;
     align-items: center;
-    padding: 50px;
+    margin-right: 100px;
 }
 
 .navbar ul{
@@ -31,14 +31,14 @@
 
 .green{
     color: white;
-    margin-left: 50px;
+    margin-left: 53px;
     padding-top: 200px;
     font-size: 20px;
 }
 
 .section1 p{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 53px;
 }
 .arrow{
     margin-left: 100px;
