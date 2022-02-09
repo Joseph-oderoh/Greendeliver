@@ -3,23 +3,32 @@
     margin: 0;
     padding: 0;
 }
+.container-fluid{
+    background-color: burlywood;
+    height: 1200px;
+}
 .side{
     background-color: green;
-    height: 500px;
+    height: 700px;
     margin-top: 50px;
 }
 .other{
     background-color: aqua;
     margin-top: 50px;
+    height: 800px;
 }
 h2{
     text-align: center;
     margin-top: 20px;
 }
 input{
-    width: 200px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+.btn{
+    position: relative;
+    top: 350px;
+}
+
 .ones{
     display: flex;
     padding: 10px;

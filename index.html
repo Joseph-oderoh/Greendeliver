@@ -12,34 +12,54 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
+        <!-- <div class="container"> -->
         <h2>ORDERS</h2>
         <div class="row">
             <div class="col-md-2 side">
-              <div class="circle circle-md bg-yellow">
+                <div class="circle circle-md bg-yellow">
 
-              </div>
-              <input type="text" placeholder="Full Name" name="first" id="name">
-              <input type="number" placeholder="ID Number" name="identify" id="person">
+                </div>
+                <form>
+                    <div class="photo">
+                        
+                        <input type="submit" value="Upload Image" name="submit">
+                        <input type="file" name="fileToUpload" id="fileToUpload">
+                    </div>
+                        <input type="text" placeholder="Full Name" name="first" id="name">
+                        <input type="number" placeholder="ID Number" name="identify" id="person">
 
+
+                        <br>
+                        <br>
+
+                        <a href="#" class="btn btn-primary">Log Out</a>
+                </form>
             </div>
             <div class="col-md-10 other">
-                <nav>
+                <nav class="nav">
+                    <a href="#" class="nav-item nav-link active">All Orders</a>
+                    <a href="#" class="nav-item nav-link">On the Way</a>
+                    <a href="#" class="nav-item nav-link">Sent</a>
+                    <a href="#" class="nav-item nav-link">Delivered</a>
+                    <!-- <a href="#" class="nav-item nav-link disabled" tabindex="-1">Menu</a> -->
+                </nav>
+                <!-- <nav>
                     <ul>
                         <li><a href="#">All Orders</a></li>
                         <li><a href="#">On the way</a></li>
                         <li><a href="#">Sent</a></li>
                         <li><a href="#">Delivered</a></li>
                         
-                    </ul>
+                    </ul> -->
                 </nav>
                 <div class="ones">
-                  <h4>ORDER</h4>
-                  <h4>CUSTOMER<br>NAME</h4>
-                  <h4>ORDER<br>INFORMATION</h4>
-                  <h4>DATE</h4>
-                  <h4>PRICE</h4>
-                  <h4>STATUS</h4>
+                    <h4>ORDER</h4>
+                    <h4>CUSTOMER<br>NAME</h4>
+                    <h4>ORDER<br>INFORMATION</h4>
+                    <h4>DATE</h4>
+                    <h4>PRICE</h4>
+                    <h4>STATUS</h4>
                 </div>
                 <div class="one">
                     <h4>#0001</h4>
@@ -85,6 +105,7 @@
 
             </div>
         </div>
+    </div>
     </div>
 
 </body>
