@@ -2,6 +2,13 @@ html{
     margin: 10px;
     box-sizing: border-box;
 }
+.del{
+    border-radius: 50%;
+    font-weight: bold;
+    height: 90px;
+    width: 90px;
+    background-color: blue;
+}
 .cycle h1{
     text-align: center;
     
@@ -14,7 +21,11 @@ html{
 body{
     background-color: #019A01;
     color:  white;
-    
+    background-size: cover;
+}
+
+.info{
+    position: relative;
 }
 #brw{
     font-family: Helvetica;
@@ -33,6 +44,14 @@ sup{
 #brw:hover{
     color: white;
 }
+.dl{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+
+}
+
 .deliv{
     display: flex;
     margin: 20px;
@@ -40,31 +59,45 @@ sup{
     justify-content: space-around;
     border-bottom: 2px solid black;
 }
-.deliv h2{
-    height: 25%;
-   
+.d{
+    color: black;
+    font-weight: bold;
+    margin: 50px;
+    
 }
 .deliv h4{
     margin: 50px;
     font-weight: bolder;
+    color: white;
+    border: solid #9C0D0D;
+    
 }
 .im{
    margin-left: 25%;
 }
 .details{
-    background-color: white;
     display: flex;
     text-align: center;
     justify-content: space-around;
     height: 200px;
-    color: black;
+    color: white;
+    position: relative;
+
     
 
 }
-.details h2{
-    height: 25%; 
-    text-align: center;
+.dt{
+    color: black;
+    font-weight: bold;
+    margin: 20px;
 }
+
 #log{
  text-align: right;
 }
+.lg{
+    background-color: blue;
+    border-radius: 45px;
+}
+
+
