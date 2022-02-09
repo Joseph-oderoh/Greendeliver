@@ -12,7 +12,7 @@ html{
     margin: 10px;
 }
 body{
-    background-color: green;
+    background-color: orange;
     color:  white;
     
 }
@@ -38,19 +38,32 @@ sup{
     margin: 20px;
     text-align: center;
     justify-content: space-around;
+    border-bottom: 2px solid black;
 }
 .deliv h2{
-    
     background: greenyellow;
     height: 25%;
+   
 }
 .deliv h4{
     margin: 50px;
+    font-weight: bolder;
 }
 .im{
-    display: block;
-    justify-content: center;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+   margin-left: 25%;
+}
+.details{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 200px;
+    color: black;
+    
+
+}
+.details h2{
+    background: greenyellow;
+    height: 25%; 
+    text-align: center;
 }
