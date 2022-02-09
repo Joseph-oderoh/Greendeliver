@@ -1,0 +1,92 @@
+* {}
+
+body {
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+
+    /* background-color: #019A01; */
+}
+
+.page {
+    background-color: #81bb81;
+    width: 60%;
+    margin-left: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.text {
+    /* background-color: #019A01; */
+    padding: 10px;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+.login {
+    font-size: x-large;
+    text-align: center;
+}
+
+.account {
+    text-align: center;
+    word-spacing: 50px;
+    /* background-color:  white; */
+    padding: 50px;
+    background-color: rgb(rgb(75, 155, 75));
+}
+
+
+.btn {
+    background-color: #761F14;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.btns {
+    /* background-color: #019A01; */
+    padding: 50px;
+    text-align: center;
+    display: ;
+}
+
+.butts {
+    background-color: #019A01;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+#have {
+    text-align: center;
+}
+
+#login {
+    color: white;
+    background-color: #3636C8;
+}
+
+#log{
+    color: #3636C8;
+}
+
+.custven {
+    justify-content: space-between;
+    word-spacing: 150px;
+    padding-bottom: 60px;
+}
+
+.forms {
+    text-align: center;
+    font-size: x-large;
+    padding: 50px;
+
+}
+
+#p1 {
+    font-size: larger;
+}
