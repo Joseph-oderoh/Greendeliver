@@ -7,7 +7,7 @@ html{
     font-weight: bold;
     height: 90px;
     width: 90px;
-    background-color: blue;
+    background-color: white;
 }
 .cycle h1{
     text-align: center;
@@ -78,6 +78,7 @@ sup{
      margin-left: 20px;
 }
 .d1{
+    margin-top: 10px;
     border: 2px solid #9C0D0D;
     display: flex;
     justify-content: space-evenly; 
@@ -85,19 +86,15 @@ sup{
     margin-left: 20px;
     
 }
-
-.dt{
-   
-    color: black;
-    font-weight: bold;
-    margin: 20px;
-}
-
 #log{
  text-align: right;
 }
 .lg{
-    background-color: blue;
+    background-color: white;
+    border-radius: 45px;
+}
+.lg2{
+    background-color: white;
     border-radius: 45px;
 }
 
