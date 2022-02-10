@@ -10,69 +10,67 @@
 </head>
 
 <body>
+    <div>
 
+        <div class="page">
 
-    <div class="page">
+            <p class="text">SignUp</p>
 
-        <p class="text">SignUp</p>
+            <div class="btns">
+                <div class="custven">
+                    <input type="button" name="btn1" id="btn1" class="buttons" value="CUSTOMER">
+                    <input type="button" name="btn2" id="btn2" class="buttons" value="VENDOR">
+                </div>
 
-        <div class="btns">
-            <div class="custven">
-                <input type="button" name="btn1" id="btn1" class="buttons" value="CUSTOMER">
-                <input type="button" name="btn2" id="btn2" class="buttons" value="VENDOR">
+                <input type="button" name="btn3" id="btn3" class="buttons" value="DELIVERY">
             </div>
 
-            <input type="button" name="btn3" id="btn3" class="buttons" value="DELIVERY">
+
+
+            <p id="have">Already have an account?</p>
+            <p class="text" id="log">LOGIN</p>
+
+            <div class="login">
+                <form action="">
+                    <label for="Username"> USERNAME</label><br>
+                    <input type="text" name="log" id="log" size="20"><br>
+                    <label for="password"> PASSWORD</label><br>
+                    <input type="password" name="logpass" id="logpass"><br>
+                    <input type="submit" name="login" class="loginbutton" value="Login">
+                </form>
+            </div>
         </div>
 
 
 
-        <p id="have">Already have an account?</p>
-        <p class="text" id="log">LOGIN</p>
 
-        <div class="login">
-            <form action="">
-                <label for="Username"> USERNAME</label><br>
-                <input type="text" name="log" id="log" size="20"><br>
-                <label for="password"> PASSWORD</label><br>
-                <input type="password" name="logpass" id="logpass"><br>
-                <input type="submit" name="login" class="loginbutton" value="Login">
+
+        <div class="vendor" id="user_vendor">
+            <P class="text">SignUp as a Vendor</P>
+            <form id="" action="">
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname" value=" "><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" name="lname" value=" "><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="number" id="phone" name="phone"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="location">Location</label><br>
+                <input type="text" name="" id="location" name="location"><br>
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="password"><br>
+
+
+                <input type="submit" class="loginbutton" name="submit" id="submit" value="Submit">
+
+
             </form>
         </div>
-    </div>
 
 
-
-
-
-    <div class="vendor" id="user_vendor">
-        <P class="text">SignUp as a Vendor</P>
-        <form id="" action="">
-            <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="fname" value=" "><br>
-            <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lname" value=" "><br>
-            <label for="phone">Phone Number</label><br>
-            <input type="number" id="phone" name="phone"><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="location">Location</label><br>
-            <input type="text" name="" id="location" name="location"><br>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="password"><br>
-
-
-            <input type="submit" class="loginbutton" name="submit" id="submit" value="Submit">
-
-
-        </form>
-    </div>
-
-
-
-
-    <div class="customer">
-        <p class="text">SignUp as a Customer</p>
+        <div class="customer">
+            <p class="text">SignUp as a Customer</p>
             <form name="customerform" action="">
                 <label for="cfname">First Name</label><br>
                 <input type="text" id="cfname" name="cfname" value=" "><br>
@@ -87,7 +85,6 @@
                 <label for="cpassword">Password</label><br>
                 <input type="cpassword" name="cpassword" id="password"><br>
 
-
                 <input type="submit" name="csubmit" id="csubmit" class="loginbutton" value="Submit">
 
 
@@ -96,7 +93,7 @@
 
 
         <div class="delivery">
-        <p class="text">SignUp as a delivery person</p>
+            <p class="text">SignUp as a delivery person</p>
             <form name="deliveryform" action="">
                 <label for="dfname">First Name</label><br>
                 <input type="text" id="dfname" name="dfname" value=" "><br>
@@ -113,11 +110,16 @@
                 <label for="dpassword">Password</label><br>
                 <input type="password" name="dpassword" id="dpassword"><br>
 
-                <input type="submit" name="submit" id="submit"  class="loginbutton" value="Submit">
+                <input type="submit" name="submit" id="submit" class="loginbutton" value="Submit">
 
 
             </form>
-        </div> 
+        </div>
+
+
+
+
+
 
 </body>
 
