@@ -27,6 +27,7 @@ body{
 .info{
     position: relative;
 }
+
 #brw{
     font-family: Helvetica;
     background-color: indianred;
@@ -37,6 +38,7 @@ body{
     height: 75px;
     width: 75px;
 }
+
 sup{
     color: green;
     font-size: large;

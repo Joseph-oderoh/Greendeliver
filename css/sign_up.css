@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+
+    /* background-color: #019A01; */
+}
+
+.page {
+    background-color: rgba(1, 154, 1, 0.3);
+    width: 40%;
+    margin-top: 1%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+.text {
+
+    padding: 1%;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.login {
+    font-size: x-large;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.account {
+    text-align: center;
+    word-spacing: 0.5%;
+    padding: 0.5%;
+    background-color: rgb(rgb(75, 155, 75));
+}
+
+.btns {
+    padding: 5%;
+    text-align: center;
+
+}
+
+.buttons {
+    background-color: #019A01;
+    padding: 2%;
+    border-radius: 10px;
+    color: white;
+}
+
+#have {
+    text-align: center;
+}
+
+.loginbutton {
+    color: white;
+    margin-top: 1%;
+    font-size: large;
+    border-radius: 15%;
+    padding: 0.05%;
+    background-color: #3636C8;
+}
+
+#log{
+    color: #3636C8;
+}
+
+.custven {
+    justify-content: space-between;
+    word-spacing: 150px;
+    padding-bottom: 60px;
+}
+
+.forms {
+    text-align: center;
+    font-size: x-large;
+    padding: 50px;
+
+}
+
+#p1 {
+    font-size: larger;
+}
+
+.vendor{ background-color: rgba(1, 154, 1, 0.3);
+    width: 40%;
+    margin-top: 1%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+
+.customer{ 
+    background-color: rgba(1, 154, 1, 0.3);
+    width: 40%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+
+.delivery{
+    background-color: rgba(1, 154, 1, 0.3);
+    width: 40%;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
