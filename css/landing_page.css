@@ -33,6 +33,14 @@ justify-content: space-between;
     flex-wrap: wrap;
 
 }
+
+a:hover{
+    /* color: #9C0D0D; */
+   background-color: #9C0D0D;
+    
+
+}
+
 .navbar a{
     font-weight: 700;
     font-size: larger;

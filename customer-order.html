@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Font Awesome -->
 <link
@@ -22,53 +21,44 @@ rel="stylesheet"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greendeliver</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/vendor-orders.css">
 <script src="https://kit.fontawesome.com/b695d1a6b6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    
     <script src="https://kit.fontawesome.com/b695d1a6b6.js" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
     <div class="container-fluid">
         <!-- <div class="container"> -->
         <h2>ORDERS</h2>
         <div class="row">
             <div class="col-md-2 side d-flex-justify-content-md-center">
-                
                     <div class="photo">
                         <i class="fa-solid fa-user-large"></i>
-                        
                         <input type="submit" value="Upload Image" name="submit">
                         <input type="file" name="fileToUpload" id="fileToUpload">
                     </div>
                         <input type="text" placeholder="Full Name" name="first" id="name">
                         <input type="number" placeholder="ID Number" name="identify" id="person">
-
-
                         <br>
                         <br>
-
-                        <a href="#" class="btn btn-primary">Log Out</a>
-                
+                        <a href="landing_page.html" class="btn btn-primary">Log Out</a>
             </div>
             <div class="col-md-10 other d-flex-justify-content-md-center">
                 <nav class="nav">
-                    <a href="#" class="nav-item nav-link active">All Orders</a>
-                    <a href="#" class="nav-item nav-link">On the Way</a>
-                    <a href="#" class="nav-item nav-link">Sent</a>
-                    <a href="#" class="nav-item nav-link">Delivered</a>
+                    <a href="#" class="nav-item nav-link active">ALL ORDERS</a>
+                    <!-- <a href="#" class="nav-item nav-link">On the Way</a> -->
+                    <!-- <a href="#" class="nav-item nav-link">Sent</a> -->
+                    <!-- <a href="#" class="nav-item nav-link">Delivered</a> -->
                     <!-- <a href="#" class="nav-item nav-link disabled" tabindex="-1">Menu</a> -->
                 </nav>
-               
-
             <div class="table-responsive">
                 <table class="table">
+                    <h2>Delivered</h2>
                     <thead>
                       <tr>
                         <th scope="col">ORDER</th>
-                        <th scope="col">CUSTOMERS'NAME</th>
-                        <th scope="col">ORDER INFORMATION</th>
+                        <!-- <th scope="col">CUSTOMERS'NAME</th> -->
+                        <th scope="col">PRODUCTS</th>
                         <th scope="col">DATE</th>
                         <th scope="col">PRICE</th>
                         <th scope="col">STATUS</th>
@@ -87,7 +77,7 @@ rel="stylesheet"
                         <td>Sukuma,Mango</td>
                         <td>02-03-2022</td>
                         <td>Ksh.200</td>
-                        <td>On the way</td>
+                        <td>Delivered</td>
                       </tr>
                       <tr>
                         <th scope="row">#0003</th>
@@ -101,7 +91,7 @@ rel="stylesheet"
                             <td>Sukuma,Mango</td>
                             <td>02-03-2022</td>
                             <td>Ksh.200</td>
-                            <td>Sent</td>
+                            <td>Delivered</td>
                       </tr>
                       <tr>
                         <th scope="row">#0005</th>
@@ -110,21 +100,38 @@ rel="stylesheet"
                         <td>Ksh.200</td>
                         <td>Delivered</td>
                       </tr>
-                      
                     </tbody>
+                    <table class="table">
+                        <h2>Pending Delivery</h2>
+                        <thead>
+                          <tr>
+                            <th scope="col">ORDER</th>
+                            <!-- <th scope="col">CUSTOMERS'NAME</th> -->
+                            <th scope="col">ITEMS</th>
+                            <th scope="col">DATE</th>
+                            <th scope="col">PRICE</th>
+                            <th scope="col">STATUS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">#00012305</th>
+                                <td>Sukuma,Mango</td>
+                                <td>02-03-2022</td>
+                                <td>Ksh.200</td>
+                                <td>On the Way</td>
+                          </tr>
+                        </tbody>
                   </table>
             </div>
         </div>
     </div>
 <script src="./Js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
     <!-- MDB -->
 <script
 type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
 ></script>
-
 </body>
-
 </html>

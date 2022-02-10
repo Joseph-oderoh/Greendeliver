@@ -92,10 +92,11 @@ sup{
 }
 #log{
  text-align: right;
+ padding: 20px;
 }
 .lg{
-    background-color: white;
-    border-radius: pxvh;
+    background-color: lightblue;
+    border-radius: 10%;
 }
 .lg2{
     background-color: #3636C8;

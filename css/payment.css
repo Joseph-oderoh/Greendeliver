@@ -48,7 +48,16 @@ h1, h2, h3{
     text-transform: uppercase;
 }
 
-button{
+ a >input {
+    margin: 2% auto;
+    background: #3636C8;
+    color: #fff;
+    font-weight: 700;
+    padding: 1vh 2vw;
+    border: none;
+}
+
+a >button {
     margin: 2% auto;
     background: #3636C8;
     color: #fff;
