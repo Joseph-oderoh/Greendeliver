@@ -61,9 +61,6 @@ justify-content: space-between;
     padding-top: 5%;
 }
 
-.greenImg{
-    /* display: flex; */
-}
 
 .arrow{
     /* margin-left: 200px; */
@@ -76,12 +73,6 @@ justify-content: space-between;
     margin: 1%;
     background-color: skyblue;
 }
-.arrow >li {
-    /* margin-left: 100px; */
-    
-}
-
-
 .section2{
     background-color: lightblue;
     /* margin: auto auto; */
@@ -158,9 +149,6 @@ justify-content: space-between;
     padding:10px;
     flex-wrap: wrap;
     /* width: 80%; */
-}
-.three{
-    /* padding: 20px 300px 20px 300px; */
 }
 #test{
     text-align: center;
