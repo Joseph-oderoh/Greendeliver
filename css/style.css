@@ -4,8 +4,9 @@
     padding: 0;
 }
 .container-fluid{
-    background-color: burlywood;
+    background-color: #b1d6b0;
     height: 1200px;
+    
 }
 .side{
     background-color: green;
@@ -14,20 +15,20 @@
     border-radius: 5px;
 }
 .other{
-    background-color: aqua;
     margin-top: 50px;
     height: 800px;
 }
 h2{
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding: 20px;
 }
 input{
     margin-top: 30px;
 }
 .btn{
     position: relative;
-    top: 350px;
+    top: 300px;
 }
 
 .ones{
@@ -37,20 +38,16 @@ input{
 .ones h4{
     flex-direction: column;
     padding: 20px;
-    padding-right: 100px;
+    padding-right: 120px;
     justify-content: space-between;
 }
-.fa-solid{
-       background-color: white;
-       height: 50px;
-       width: 50px;
+.fa-user-large{
+    font-size: 50px;
+    color: white;
+    margin-top:50px ;
 }
-
 .one{
-    border: 2px black solid;
-    height: 70px;
-    margin-top: 20px;
-    display: flex;
+    background-color: inherit !important;
 }
 .one h4{
     flex-direction: column;
@@ -58,14 +55,8 @@ input{
     justify-content: space-between;
     padding-right: 100px;
 }
-.two{
-    border: 2px black solid;
-    height: 70px;
-    margin-top: 20px;
-    display: flex;
-}
-.two h4{
-    flex-direction: column;
-    padding: 30px;
-    justify-content: space-between;
+
+tbody tr:hover{
+    transform: scale(0.9);
+    border: 2px #9C0D0D solid;
 }
