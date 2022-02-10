@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    background: rgba(1, 154, 1, 0.302);
+    display: flex;
+    flex-direction: column;
+}
+
+.container--fluid{
+    margin-top: 10vh;
+}
+
+.d-flex>input{
+    background: #3636C8;
+    color: #fff;
+    font-weight: 700;
+    padding: 1vh 2vw;
+    border: none;
+    margin-top: 21.0vh;
+}
+
+#complete{
+    margin: 20vh 10vw;
+}
+
+.images{
+    text-align: center;
+}
+
+.billing--info,.personal--info {
+    background: #019A01;
+    margin: 4vh auto;
+    text-align: center;
+    gap: 1em;
+    width: 50vw;
+}
+
+h1, h2, h3{
+    background: #019A01;
+    width: 50vw;
+    text-align: center;
+    margin: auto auto;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+button{
+    margin: 2% auto;
+    background: #3636C8;
+    color: #fff;
+    font-weight: 700;
+    padding: 1vh 2vw;
+    border: none;
+}
+
+form>input{
+    width: 40%;
+}
