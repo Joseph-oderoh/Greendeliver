@@ -7,7 +7,7 @@ body {
 }
 
 .page {
-    background-color: #019a0183;
+    background-color: #019a0157;
     width: 40%;
     margin-top: 100px;
     margin-left: 500px;
@@ -86,7 +86,7 @@ body {
     font-size: larger;
 }
 
-.vendor{ background-color: #019a0183;
+.vendor{ background-color: #019a0157;
     width: 40%;
     margin-top: 100px;
     margin-left: 500px;
@@ -98,7 +98,7 @@ body {
 }
 
 
-.customer{ background-color: #019a0183;
+.customer{ background-color: #019a0157;
     width: 40%;
     margin-top: 100px;
     margin-left: 500px;
@@ -110,7 +110,7 @@ body {
 }
 
 
-.delivery{ background-color: #019a0183;
+.delivery{ background-color: #019a0157;
     width: 40%;
     margin-top: 100px;
     margin-left: 500px;
