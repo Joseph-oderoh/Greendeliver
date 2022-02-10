@@ -1,5 +1,8 @@
-function alertCustomer(){
-    alert("Your order has arrived")
+// function alertCustomer(){
+    // document.get
+// };
+function logOut(){
+    alert("logOut")
 };
 
 // var al = document.getElementById("alert");

@@ -19,8 +19,8 @@ html{
     margin: 10px;
 }
 body{
-    background-color: #019A01;
-    color:  white;
+    background-color:rgba(1, 154, 1, 0.302);
+    color:  black;
     background-size: cover;
 }
 
@@ -46,9 +46,11 @@ sup{
 }
 .deliv{
     text-align: center;
+    color: black;
 }
 .deliv p{
     text-align: left;
+    color: black;
 }
 .t1{
     display: flex;
@@ -91,11 +93,66 @@ sup{
 }
 .lg{
     background-color: white;
-    border-radius: 45px;
+    border-radius: pxvh;
 }
 .lg2{
-    background-color: white;
+    background-color: #3636C8;
     border-radius: 45px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+
+
 }
+@media only screen and (max-width: 600px) {
+    html{
+        background-color: rgba(1, 154, 1, 0.302); 
+        font-size: medium;
+ }
+    body{
+        font-size: smaller;
+        color: white;
+    }
+    .cycle{
+        color: blue;
+        font-size: large;
+    }
+    .deliv{
+        flex-direction: column;
+    }
+    .t1{ display: flex;
+        flex-direction: column;
+        font-size: medium;
+    }
+    .t2{
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+       
+        word-spacing: 10px;
+    }
+    .t3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: small;
+    }
+    .d{
+        justify-content: space-evenly;
+    }
+    .d1{
+        justify-content: space-evenly;
+    }
+    
+   .d{
+       flex-direction: column;
+
+   }
+   .d1{
+       flex-direction: column;
+   }
+
+    }
+
 
 
